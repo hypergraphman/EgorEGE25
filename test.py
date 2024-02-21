@@ -1,4 +1,6 @@
-win = (input())
-lose = (input())
-count = (input())
-print('В сегодняшнем матче команда "', win, '" победила команду "', lose, '" со счётом"', count)
+a = int(input())
+b = int(input())
+c = int(input())
+d = float(input())
+p = a * c * 2 + b * c * 2
+print(p / d)
