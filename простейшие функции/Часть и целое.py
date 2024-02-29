@@ -3,7 +3,9 @@ c = int(input())
 d = int(input())
 a = c * b + d
 x = int(str(d) + str(c))
-if a > x:
-    print('НЕТ')
-else:
+if x > a:
+    print(x)
     print('ДА')
+else:
+    print(x)
+    print('НЕТ')
