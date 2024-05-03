@@ -1,6 +1,6 @@
-a = int(input())
-b = int(input())
-c = int(input())
-d = float(input())
-p = a * c * 2 + b * c * 2
-print(p / d)
+s = 0
+for i in range(7):
+    n = int(input())
+    if n % 2 == 0:
+        s = s + n
+print(s)
